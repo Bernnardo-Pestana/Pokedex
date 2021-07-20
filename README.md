@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+Esse projeto foi feito para apresentar os conhecimentos em axios e Vue.js. Não foi feito uma estilização "bonita" no front end. Foi feito somente as ações necessarias para o funcionamento desse projeto.
