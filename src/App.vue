@@ -19,7 +19,9 @@ import axios from 'axios';
 import Pokemon from "./components/Pokemon.vue"
 
 export default {
-  name: 'App',data(){
+  name: 'App',
+  
+  data(){
     return{
       pokemons : [],
       filteredpokemons : [],

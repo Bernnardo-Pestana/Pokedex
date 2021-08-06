@@ -2,24 +2,24 @@
 
 
     <div class="card" id ="pokemon" >
-  <div class="card-image">
-    <figure>
-      <img :src="this.currentImg" alt="Placeholder image">
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-    
-      <div class="media-content">
-        <p class="title is-4">{{id}} {{name | Upper }}</p>
-        <p class="subtitle is-6"> {{this.pokemon.type}} </p>
+      <div class="card-image">
+        <figure>
+          <img :src="this.currentImg" alt="Placeholder image">
+        </figure>
       </div>
-    </div>
+      <div class="card-content">
+        <div class="media">
+        
+          <div class="media-content">
+            <p class="title is-4">{{id}} {{name | Upper }}</p>
+            <p class="subtitle is-6"> {{this.pokemon.type}} </p>
+          </div>
+        </div>
 
-    <div class="content">
-      <button class="button is-small" @click="mudaImg">Muda-Imagem</button>
-    </div>
-  </div>
+        <div class="content">
+          <button class="button is-small" @click="mudaImg">Muda-Imagem</button>
+        </div>
+      </div>
 </div>
 </template>
 
